@@ -1,0 +1,23 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.countries_wrapper {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.Countries h1 {
+  color: rgb(23, 168, 176);
+  margin: 20px 0;
+}
